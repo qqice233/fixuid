@@ -4,7 +4,9 @@ dist: trusty
 arch: arm64
 go:
   - 1.11
-
+addons:
+  artifacts: true
+  
 branches:
   only:
     - master
